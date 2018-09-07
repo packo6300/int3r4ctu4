@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_audiolibros"
+            android:icon="@mipmap/ic_menuaudiolibro"
+            android:title="Audiolibros" />
+        <item
+            android:id="@+id/nav_frases"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Frases" />
+        <item
+            android:id="@+id/nav_libros"
+            android:icon="@mipmap/ic_menulibro"
+            android:title="Libros" />
+        <item
+            android:id="@+id/nav_networking"
+            android:icon="@mipmap/ic_menunetworking"
+            android:title="Networking" />
+        <item
+            android:id="@+id/nav_socios"
+            android:icon="@mipmap/ic_menusocios"
+            android:title="Socios" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir app" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contacto" />
+        </menu>
+    </item>
+
+</menu>
